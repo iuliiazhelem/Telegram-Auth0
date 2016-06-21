@@ -1,0 +1,14 @@
+//
+//  ConfigDebug.xcconfig
+//  Telegraph
+//
+//  Created by Iuliia Zhelem on 15.06.16.
+//
+//
+
+TELEGRAPH_BUNDLE_ID=org.telegram.TelegramEnterprise
+TELEGRAPH_SHARE_BUNDLE_ID=$(TELEGRAPH_BUNDLE_ID).Share
+TELEGRAPH_WATCHAPP_BUNDLE_ID=$(TELEGRAPH_BUNDLE_ID).watchkitapp
+TELEGRAPH_WATCHEXT_BUNDLE_ID=$(TELEGRAPH_WATCHAPP_BUNDLE_ID).watchkitextension
+
+#include "Pods/Target Support Files/Pods-Telegraph/Pods-Telegraph.debug.xcconfig"
